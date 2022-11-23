@@ -1,0 +1,18 @@
+package patika_odev_03;
+
+import java.util.Scanner;
+
+public class Patika_odev_03 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Sınır sayısını giriniz : ");
+        int sinir = scan.nextInt();
+        for (int i = 1; i < sinir ; i++) {
+            if (i%4 ==0 || i%5==0) {
+                System.out.println(i);
+            }
+            
+        }
+    }
+    
+}
